@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+/*	font-family: 'Open Sans', sans-serif; */
+
+body
+{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.search
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#img
+{
+	height: 250px;
+	width: 250px;
+}
+
+#searchbar
+{
+	background-color: black;
+	color:white;
+	height: 60px;
+	width: 400px;
+	border: solid red 1px;
+	border-radius: 30px;
+}
+
+#searchbar::placeholder
+{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+
+#select
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	color:white;
+	height: 40px;
+	width: 200px;
+	border: solid red 1px;
+	border-radius: 30px;
+}
+
+#select option
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	color:white;
+	height: 40px;
+	width: 200px;
+	border: solid red 1px;
+	border-radius: 30px;
+}
+
+#button
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	color:white;
+	height: 50px;
+	width: 200px;
+	border: solid red 1px;
+	border-radius: 30px;
+}
+
+#button:hover
+{
+	background-color: red;
+	color: black;
+}
+
+	
+
+
+
